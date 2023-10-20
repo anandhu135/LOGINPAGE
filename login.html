@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        .center
+        {
+            width: 350px;
+            height: 350px;
+            background-color: antiquewhite;
+            left: 50%;
+            top: 50%; 
+            position: absolute;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .imageholder
+        {
+            text-align: center;
+        }
+        .image
+        {
+            display: inline-block;
+            padding-top: 20px;
+        }
+        .formhandler
+        {
+            text-align: center;
+        }
+        .ip
+        {
+            height: 40px;
+            width: 70%;
+            font-size: 15px;
+            color: rgb(21, 21, 116);
+            text-align: center;
+            background-color: rgb(223, 223, 223);
+            border: none;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .logbtn:hover
+        {
+            background-color: rgb(101, 33, 126);
+            cursor: pointer;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="center"> 
+        <div class="imageholder">
+            <img src="user.png" alt="" height="70px" class="image">
+        </div>
+                
+        <div class="formhandler">
+            <form style="padding-top: 35px;">
+                <input type="text" placeholder="Enter Username" class="ip">
+                <br>
+                <br>
+                <input type="password" placeholder="Enter password" class="ip">
+                <br>
+                <br>
+                <br>
+                <br>
+                <input type="submit" value="login" class="logbtn">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
